@@ -2,3 +2,4 @@
 
 - Данное приложение создал для введения отчетов своих финансов.
  (создание данного бота можете проследить на моём ютюб канале)
+ https://www.youtube.com/playlist?list=PLRMxGmEpg48o5BbtxrwcTkR_LP_ZQpKnF
