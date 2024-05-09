@@ -5,12 +5,14 @@ import time
 from aiogram import Bot, Dispatcher
 
 from config.config import settings
+from handlers.handler import router
 
 
 async def main():
     bot = Bot(token=settings.token.get_secret_value())
     dp = Dispatcher()
-    # dp.include_router()
+    dp.include_router(router=router)
+    await bot.delete_webhook(drop_pending_updates=True)
     await dp.start_polling(bot)
 
 
